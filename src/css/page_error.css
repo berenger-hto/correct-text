@@ -1,0 +1,17 @@
+.page_error {
+    padding: 40px;
+
+    .title {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .detail {
+        font-size: 17px;
+        font-weight: 400;
+        border: 1px solid rgba(220, 53, 69, 0.5);
+        background: rgba(220, 53, 69, 0.2);
+        border-radius: 8px;
+        padding: 10px 25px;
+    }
+}

@@ -1,0 +1,144 @@
+.correct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100dvh - 75px);
+    overflow: hidden;
+    overflow-y: auto;
+    flex-direction: column;
+    gap: 2rem;
+
+    .form p {
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .form .box {
+        background: #fff;
+        border: 1px solid #ccc;
+        padding: 10px 16px;
+        width: 700px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form .box textarea {
+        border: none;
+        outline: none;
+        font-size: 17px;
+        font-weight: 400;
+        height: 250px;
+        resize: none;
+    }
+
+    .form .box textarea::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .form .box textarea::-webkit-scrollbar-thumb {
+        background: black;
+        cursor: default;
+    }
+
+    .form .control {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 0;
+    }
+
+    .form .control i {
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        cursor: pointer;
+        color: rgba(0, 0, 0, 0.76);
+    }
+
+    .form .add_element {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+    }
+
+    .form .add_element span {
+        background: rgba(0, 0, 0, 0.2);
+        padding: 5px;
+        border-radius: 5px;
+        cursor: default;
+    }
+
+    .form .control button {
+        padding: 8px 10px;
+        color: #fff;
+        background: #000000;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: .2s;
+    }
+
+    .form .control button:hover{
+        opacity: .8;
+    }
+
+    .suggested {
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+    }
+
+    .suggested .suggest {
+        border: 2px solid rgba(220, 53, 69, 0.50);
+        width: 500px;
+        padding: 8px 12px;
+        border-radius: 10px;
+        background: rgba(220, 53, 69, 0.20);
+        transition: background .3s;
+    }
+
+    .suggested .suggest:hover{
+        background: rgba(220, 53, 69, 0.10);
+    }
+
+    .suggested .suggest .error_text {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .suggested .suggest:last-child {
+        margin-bottom: 30px;
+    }
+
+    .suggested .suggest .choice {
+        display: grid;
+        grid-template-columns: repeat(5, 0fr);
+        gap: .3rem;
+        margin: 5px 0;
+    }
+
+    .suggested .suggest .choice button {
+        padding: 3px 8px;
+        border: none;
+        outline: none;
+        background: rgba(0, 0, 0, 0.88);
+        color: #fff;
+        border-radius: 8px;
+    }
+
+    .suggested .suggest .choice button:hover {
+        opacity: .8;
+        cursor: pointer;
+    }
+}
