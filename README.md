@@ -1,6 +1,6 @@
-# Correcteur de Texte – Projet universitaire (L1)
+# Correcteur de Texte
 
-Ce projet est une mini application web développée en React qui permet de détecter et corriger les fautes dans un texte saisi par l'utilisateur. Présentée dans le cadre d’un exposé en cours de français, elle analyse les erreurs grammaticales, orthographiques et de ponctuation grâce à une API externe.
+Ce projet est une mini application web développée en React pour détecter et corriger les fautes dans un texte saisi par l'utilisateur. Présentée dans le cadre d’un exposé en cours de français, elle analyse les erreurs grammaticales, orthographiques et de ponctuation grâce à une API externe. Pas tout à fait finaliser
 
 ## ✨ Fonctionnalités
 
@@ -22,4 +22,4 @@ Ce projet est une mini application web développée en React qui permet de déte
 git clone https://github.com/berenger-hto/correct-text.git
 cd correct-text
 npm install
-npm start
+npm run dev
